@@ -19,7 +19,7 @@
 	});
 </script>
 
-<div class="hero bg-base-200 min-h-screen">
+<div class="hero bg-base-200 c-min-h-screen">
 	<div class="hero-content text-center">
 		<div>
 			<h1 class="text-5xl font-bold">Is Negative Zero?</h1>
@@ -48,11 +48,27 @@
 	</div>
 </div>
 
+<footer class="footer bg-base-200 footer-center p-10 select-none">
+	<aside>
+		<p>
+			&lt;3 &bull;
+			<a class="link link-primary link-hover" href="https://github.com/raluvy95/isnegativezero"
+				>Source code</a
+			>
+		</p>
+	</aside>
+</footer>
+
 <style lang="scss">
+	// Prefix "c-" stands for custom
 	.c-left-success {
 		left: 41%;
 	}
 	.c-left-error {
 		left: 43.5%;
+	}
+
+	.c-min-h-screen {
+		min-height: 89vh;
 	}
 </style>
